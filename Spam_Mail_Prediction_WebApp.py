@@ -9,10 +9,10 @@ import numpy as np
 import pickle
 import streamlit as st
 
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-17-Spam Mail Prediction using Machine Learning/model.pkl", 'rb') as f:
+with open("model.pkl", 'rb') as f:
     model = pickle.load(f)
 
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-17-Spam Mail Prediction using Machine Learning/feature_extraction.pkl", 'rb') as f:
+with open("feature_extraction.pkl", 'rb') as f:
     feature_extraction = pickle.load(f)
     
 #creating a function for prediction
